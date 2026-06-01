@@ -27,7 +27,7 @@ shap.dependence_plot("ntb_count", shap_values, X_processed,
 plt.savefig('shap_ntb_dependence.png')
 plt.show()
 
-print("✅ SHAP analysis completed.")
+print("SHAP analysis completed.")
 
 # ========================== 7. MODEL COMPARISON & EXPORT ==========================
 comparison = pd.DataFrame(results).T
@@ -38,5 +38,5 @@ print(comparison.round(4))
 comparison.to_csv('model_comparison.csv')
 df.to_csv('processed_trade_data.csv', index=False)
 
-print("\n🎉 Full analysis pipeline completed successfully!")
+print("\n Full analysis pipeline completed successfully!")
 print("Files saved: trade_trends.png, correlation_matrix.png, shap_*.png, model_comparison.csv")
