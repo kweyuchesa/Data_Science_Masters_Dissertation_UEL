@@ -9,8 +9,11 @@ The goal is to build an ML-augmented gravity model of trade for bilateral export
 3) Compare traditional gravity estimation against modern machine learning approaches.
 4) Maintain interpretability using SHAP.
 
-# Statement of the Research Questions
-a) To what extent can machine learning augmented gravity models (Random Forest, XGBoost, and neural networks) improve the predictive accuracy of bilateral trade flows compared to the traditional log linear gravity baseline for the period 2017-2024? 
-b) What is the quantified impact of the studied non-tariff barriers on bilateral trade flows among Northern Corridor Member States, and which NTB categories exert the most significant trade-suppressing effects as identified through SHAP-based feature importance analysis? 
-c)	Which combination of machine learning architectures (Random Forest, XGBoost, and neural networks) yields the most robust and interpretable predictions of bilateral trade flows when gravity model features are augmented with NTB indicators? 
+# Statement of the Research Questions:
+
+> a) To what extent can machine learning augmented gravity models (Random Forest, XGBoost, and neural networks) improve the predictive accuracy of bilateral trade flows compared to the traditional log linear gravity baseline for the period 2017-2024? 
+
+> b) What is the quantified impact of the studied non-tariff barriers on bilateral trade flows among Northern Corridor Member States, and which NTB categories exert the most significant trade-suppressing effects as identified through SHAP-based feature importance analysis? 
+
+> c)	Which combination of machine learning architectures (Random Forest, XGBoost, and neural networks) yields the most robust and interpretable predictions of bilateral trade flows when gravity model features are augmented with NTB indicators? 
 
